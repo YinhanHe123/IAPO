@@ -1,0 +1,22 @@
+# torch==2.6.0+cu126
+# deepspeed>=0.15.0
+# # vllm>=0.8.3
+# ninja 
+# packaging
+# # flash-attn must be installed separately: pip install flash-attn --no-build-isolation
+# trl==0.23.1
+# flash_attn==2.7.4.2
+# wandb
+# pandas
+# tqdm
+trl[vllm]==0.21.0
+torch==2.7.1+cu128
+vllm==0.10.0
+deepspeed 
+bitsandbytes
+flash_attn==2.7.4.2
+wandb
+pandas
+tqdm
+numpy<2.0.0
+transformers==4.57.6
