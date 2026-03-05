@@ -227,7 +227,7 @@ fi
 ### Checkpoint Selection
 
 1. Identify the top 5 checkpoints with highest validation correctness reward in `trainer_state.json`
-2. Save checkpoint steps to `best_steps.txt` in the checkpoint directory
+2. Save checkpoint steps to `best_steps.txt` in the checkpoint directory (run cell "Find top 5 ckpts for each run and pick the one with best token efficiency." in ckpts_postprocessing.ipynb to get `best_steps.txt`)
 3. Run evaluation on selected checkpoints
 
 ### Running Evaluation
